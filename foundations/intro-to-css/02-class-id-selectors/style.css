@@ -13,13 +13,18 @@
 }
 
 /* The third element */
-.num3 {
+.font-size-24 {
     font-size: 24px;
 }
+
+/* The third element
+.num3 {
+    font-size: 24px;
+} */
 
 /* The fourth element */
 #num4 {
     background-color: lightgreen;
-    font-size: 24px;
+    /* font-size: 24px; */
     font-weight: bold;
 }
