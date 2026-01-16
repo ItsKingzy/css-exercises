@@ -1,5 +1,9 @@
 /* Add CSS Styling */
 
+/* 
+- The reason it's .container .text and not .container .text .text for the second div element is because both p elements are conatained within the the same parent "container" class thus these two elements are siblings so you do not need to make two seperate references to the exact same class.
+*/
+
 .container .text {
     background-color: yellow;
     color: red;
