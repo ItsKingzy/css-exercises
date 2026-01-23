@@ -11,6 +11,12 @@ body {
   padding: 8px;
 }
 
+/* 
+Ref: https://stackoverflow.com/questions/40815149/h1-is-not-inheriting-font-weight-from-its-container
+
+  - Solution to fixing inheritance issue with default user agent stylesheets for h1 header!
+*/
+
 .title {
   background: #e3f4ff;
   font-size: inherit;
