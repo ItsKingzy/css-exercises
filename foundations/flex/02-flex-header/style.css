@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding: 8px;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -31,16 +32,17 @@ a {
 }
 
 /* Solution */
+.right-links ul,
 .left-links ul {
-  display: flex;  /* Default flex-direction is row */ 
-  justify-content: space-evenly;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
 }
 
-.left-links {
-  
+.right-links a {
+  margin: 0 0 0 16px;
 }
 
-/* Solution */
-.right-links {
-  
+.left-links a {
+  margin: 0 16px 0 0;
 }
