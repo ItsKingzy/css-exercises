@@ -48,6 +48,8 @@ ul {
 }
 
 
+
+
 /* Solution */
 .header {
   display: flex;
@@ -56,6 +58,7 @@ ul {
 }
 
 .left-items,
+.right-items,
 .logo,
 .links {
   display: flex;
@@ -64,9 +67,12 @@ ul {
 .links {
   padding: 0 16px;
   gap: 16px;
-
 }
 
 .right-items {
-  display: flex;
+  align-items: center;
+}
+
+.right-items {
+  gap: 16px;
 }
