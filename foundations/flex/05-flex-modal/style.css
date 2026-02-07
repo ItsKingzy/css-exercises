@@ -73,8 +73,6 @@ button.cancel {
 
 /* My Solution */
 .modal,
-.icon,
-.left-container,
 .top-header {
   display: flex;
 }
@@ -100,4 +98,8 @@ button.cancel {
 .top-header .header {
   font-weight: 600;
   font-size: larger;
+}
+
+.continue-cancel {
+  margin-top: 16px;
 }
