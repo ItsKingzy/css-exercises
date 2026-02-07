@@ -37,11 +37,34 @@ img {
   display: flex;
 }
 
-.plants {
-
-}
-
-.top-header {
+.header {
   justify-content: center;
   margin: 32px;
+}
+
+.plants {
+}
+
+.barberry {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 52px;
+}
+
+.chilli {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 52px;
+}
+
+.pepper {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 52px;
+}
+
+.saffron {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 52px;
 }
