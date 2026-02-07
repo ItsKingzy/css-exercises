@@ -38,6 +38,11 @@ img {
   display: flex;
 }
 
+.plants {
+
+}
+
 .top-header {
-  
+  justify-content: center;
+  margin: 32px;
 }
