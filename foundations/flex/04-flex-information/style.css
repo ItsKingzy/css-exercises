@@ -28,7 +28,8 @@ img {
 
 
 /* My Solutions */
-.header,
+.top-header,
+.lower-header,
 .plants,
 .barberry,
 .chilli,
@@ -37,6 +38,6 @@ img {
   display: flex;
 }
 
-.header {
+.top-header {
   
 }
