@@ -91,3 +91,13 @@ button.cancel {
   margin-left: 16px;
   flex-direction: column;
 }
+
+.top-header {
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.top-header .header {
+  font-weight: 600;
+  font-size: larger;
+}
