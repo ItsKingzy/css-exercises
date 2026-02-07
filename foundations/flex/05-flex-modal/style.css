@@ -67,3 +67,15 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+
+
+/* My Solution */
+.icon,
+.left-header,
+.top-header {
+  display: flex;
+}
+
+.
