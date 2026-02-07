@@ -72,17 +72,16 @@ button.cancel {
 
 
 /* My Solution */
-.modal,
-.top-header {
-  display: flex;
-}
-
 .modal {
+  display: flex;
   padding: 16px;
 }
 
 .icon {
   min-width: 42px; 
+  /* This is the same thing as doing:
+  flex-shrink: 0; 
+  */
 }
 
 .left-container {
@@ -91,11 +90,9 @@ button.cancel {
 }
 
 .top-header {
+  display: flex;
   justify-content: space-between;
   margin-bottom: 8px;
-}
-
-.top-header .header {
   font-weight: 600;
   font-size: larger;
 }
