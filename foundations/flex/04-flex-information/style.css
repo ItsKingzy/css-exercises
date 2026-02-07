@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+
+/* My Solutions */
+.header,
+.plants,
+.barberry,
+.chilli,
+.pepper,
+.saffron {
+  display: flex;
+}
+
+.header {
+  
+}
