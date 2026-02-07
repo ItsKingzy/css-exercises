@@ -42,24 +42,10 @@ img {
   margin: 32px;
 }
 
-.barberry {
-  flex-direction: column;
-  align-items: center;
-  margin: 0 26px;
-}
-
-.chilli {
-  flex-direction: column;
-  align-items: center;
-  margin: 0 26px;
-}
-
-.pepper {
-  flex-direction: column;
-  align-items: center;
-  margin: 0 26px;
-}
-
+/* N.B., Margin collapsing doesnt work on flex conainter to margin of another flex container */
+.barberry,
+.chilli, 
+.pepper, 
 .saffron {
   flex-direction: column;
   align-items: center;
