@@ -72,10 +72,22 @@ button.cancel {
 
 
 /* My Solution */
+.modal,
 .icon,
-.left-header,
+.left-container,
 .top-header {
   display: flex;
 }
 
-.
+.modal {
+  padding: 16px;
+}
+
+.icon {
+  min-width: 42px; 
+}
+
+.left-container {
+  margin-left: 16px;
+  flex-direction: column;
+}
