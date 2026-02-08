@@ -24,3 +24,32 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+
+
+/* My Solutions */
+.header,
+.content,
+.footer {
+  display: flex;
+}
+
+li {
+  /* Source: https://stackoverflow.com/questions/36350948/removing-black-dots-from-li-and-ul */
+  list-style: none;
+}
+
+a {
+  /* Source: https://stackoverflow.com/questions/10853881/how-to-remove-underline-from-a-link-in-html */
+  text-decoration: none;
+}
+
+.left-links {
+  display: flex;
+
+}
+
+.right-links {
+  display: flex;
+}
