@@ -29,12 +29,6 @@ input {
 
 
 /* My Solutions */
-.header,
-.content,
-.footer {
-  display: flex;
-}
-
 li {
   /* Source: https://stackoverflow.com/questions/36350948/removing-black-dots-from-li-and-ul */
   list-style: none;
@@ -44,9 +38,9 @@ a {
   /* Source: https://stackoverflow.com/questions/10853881/how-to-remove-underline-from-a-link-in-html */
   text-decoration: none;
   color: grey;
-  /* margin-right: 12px; */
 }
 
+/* HEADER SECTION */
 .header {
   display: flex;
   justify-content: space-between;
@@ -60,9 +54,11 @@ a {
   margin: 16px;
 }
 
-/* .right-links {
+/* CONTENT SECTION */
+.content {
   display: flex;
-  gap: 12px;
-  padding: 12px;
-  margin: 16px;
-} */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 256px;
+}
