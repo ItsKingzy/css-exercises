@@ -43,13 +43,26 @@ li {
 a {
   /* Source: https://stackoverflow.com/questions/10853881/how-to-remove-underline-from-a-link-in-html */
   text-decoration: none;
+  color: grey;
+  /* margin-right: 12px; */
 }
 
-.left-links {
+.header {
   display: flex;
-
+  justify-content: space-between;
 }
 
+.left-links, 
 .right-links {
   display: flex;
+  gap: 12px;
+  padding: 12px;
+  margin: 16px;
 }
+
+/* .right-links {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  margin: 16px;
+} */
