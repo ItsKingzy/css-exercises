@@ -69,3 +69,15 @@ a {
 
 .sidebar {
 }
+
+/* CARDS */
+.cards {
+  display: flex;
+  margin: 32px;
+  gap: 32px;
+}
+
+.card {
+  padding: 16px;
+  flex: 1 1 100px;
+}
