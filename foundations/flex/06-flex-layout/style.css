@@ -68,7 +68,10 @@ a {
   display: flex;
   /* flex: 1; is flex-grow: 1; , flex-shrink: 1; , and flex-basis: 0;
   this means that the page will grow and shrink in proportion to this 
-  flex container */
+  flex container 
+  
+  Reference: https://stackoverflow.com/questions/37386244/what-does-flex-1-mean
+  */
   flex: 1;
   flex-direction: column;
   align-items: center;
