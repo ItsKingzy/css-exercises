@@ -37,6 +37,7 @@ body {
   flex-direction: column;
 }
 
+/* HEADER */
 .header {
   display: flex;
   font-weight: bold;
@@ -45,8 +46,26 @@ body {
   padding-left: 16px;
 }
 
+/* CONTENT */
 .content {
   display: flex;
   flex: 1; /* Pushes footer to bottom */
 }
 
+/* SIDEBAR */
+ul {
+  list-style: none;
+  padding-left: 16px;
+}
+
+li {
+  margin: 8px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar {
+}
