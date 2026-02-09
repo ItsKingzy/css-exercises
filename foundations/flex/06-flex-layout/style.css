@@ -29,6 +29,15 @@ input {
 
 
 /* My Solutions */
+body {
+  /* We need to make the entire body a flex container so then we
+  work with flex children .header, .contetn, and .footer, so we can 
+  then set the .content to grow and shrink based on the other parts
+  of the screen. */
+  display: flex;
+  flex-direction: column;
+}
+
 li {
   /* Source: https://stackoverflow.com/questions/36350948/removing-black-dots-from-li-and-ul */
   list-style: none;
@@ -57,6 +66,10 @@ a {
 /* CONTENT SECTION */
 .content {
   display: flex;
+  /* flex: 1; is flex-grow: 1; , flex-shrink: 1; , and flex-basis: 0;
+  this means that the page will grow and shrink in proportion to this 
+  flex container */
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
