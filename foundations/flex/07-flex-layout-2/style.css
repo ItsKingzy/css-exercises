@@ -40,9 +40,9 @@ body {
 /* HEADER */
 .header {
   display: flex;
-  font-weight: bold;
-  font-size: 32px;
   align-items: center;
+  font-weight: 900;
+  font-size: 32px;
   padding-left: 16px;
 }
 
@@ -65,19 +65,26 @@ li {
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 .sidebar {
+  display: flex;
+  flex: 0 0 300px;
+  width: 300px;
 }
 
 /* CARDS */
 .cards {
   display: flex;
-  margin: 32px;
+  padding: 48px;
   gap: 32px;
+  flex-wrap: wrap;
 }
 
 .card {
   padding: 16px;
-  flex: 1 1 100px;
+  width: 300px;
 }
+
+/* FOOTER */
