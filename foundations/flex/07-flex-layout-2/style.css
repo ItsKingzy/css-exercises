@@ -78,12 +78,14 @@ a {
 .cards {
   display: flex;
   padding: 48px;
+  /* Gap between flex items within the cards container */
   gap: 32px;
   flex-wrap: wrap;
 }
 
 .card {
   padding: 16px;
+  /* Each card must have a max width (height doesnt matter) */
   width: 300px;
 }
 
